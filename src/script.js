@@ -40,7 +40,7 @@ class ToDoList extends React.Component {
     }
 
     componentDidMount() {
-        this.fetchTasks;
+        this.fetchTasks();
     }
 
     fetchTasks() {

@@ -89,7 +89,7 @@ var ToDoList = function (_React$Component2) {
     _createClass(ToDoList, [{
         key: "componentDidMount",
         value: function componentDidMount() {
-            this.fetchTasks;
+            this.fetchTasks();
         }
     }, {
         key: "fetchTasks",
